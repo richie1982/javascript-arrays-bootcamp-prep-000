@@ -9,4 +9,6 @@ function destructivelyAddElementToBeginningOfArray(chocolateBars, candy){
   return chocolateBars
 }
 
-function 
+function addElementToEndOfArray(chocolateBars, candy){
+  return [chocolateBars..., candy]
+}
