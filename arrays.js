@@ -4,4 +4,7 @@ function addElementToBeginningOfArray(chocolateBars, candy){
   return [candy, ...chocolateBars];
 }
 
-function 
+function destructivelyAddElementToBeginningOfArray(chocolateBars, candy){
+  chocolateBars.unshift(candy)
+  return [chocolateBars]
+}
